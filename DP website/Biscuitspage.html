@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/8f27d68390.js"crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header>
+<div class="container-fluid" style="background-color: #ffffff; height: 180px; padding: 15px 10px;">
+<div class="row">
+<div class="col-sm-4">
+<a href="Homepage.html">
+<img class="img-responsive" img src="Logo.jpg" width="199" height="65" 
+style="vertical-align:middle;"></a>
+</div>
+<div class="col-sm-4 text-center">
+<form>
+<div class="input-group">
+<input type="text" class="form-control button1" placeholder="Search...">
+<div class="input-group-btn">
+<button class="btn btn-default" style="color: black; border: 1px; margin: 17px -3px; height: 34px;
+width: 10px;background-color: #43D079; " type="submit">
+<i class="glyphicon glyphicon-search" style="margin: -3px -10px;"></i> 
+</button>
+</div>
+</div>
+</form>
+</div>
+<!--dropdown menu-->
+<div class="col-sm-4 text-right">
+<button class="btn2 btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img class="img-responsive" 
+img src="Menu icons/Menu_icon.png" width="33" height="25" style="vertical-align:middle; float: right; margin: 1px 1px;">
+<span class="caret"></span> </button>
+<ul class="dropdown-menu dropdown-menu-right">
+<li><a href="#"><p style="text-align: center; font-size: 20px;"> Start shopping</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/meat.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;"> Meats</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Vegetables.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Vegetables</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Fruits.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Fruits</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Desserts.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Desserts</p></a></li>
+<li><a href="Biscuitspage.html"><img class="img-responsive" img src="Menu icons/Biscuits.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Biscuits</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Drinks.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Drinks</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Household.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Household</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Hygiene.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Hygiene</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Pets.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Pets</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Myaccount.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">My account</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Favourites.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Favourites</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Specialoffers.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Special offers</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/Contactus.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">Contact us</p></a></li>
+<li><a href="#"><img class="img-responsive" img src="Menu icons/TandCs.png" width="40" height="40" 
+style="vertical-align:middle; float: left; margin: -1px -50px;"> 
+<p style="text-align: center; font-size: 20px;">T & C's</p></a></li>
+</ul>
+</div>
+</div>
+</div>
+<!--shopping cart-->
+<div class="cart-box">
+<div class="cart-icon">
+<i class="fas fa-cart-arrow-down fa-2x"></i>
+</div>
+<div class="whole-cart-window hide">
+<h2>Shopping Bag</h2>
+<div class="cart-wrapper">    
+</div>
+<div class="subtotal">Subtotal: €0.00</div>
+<div class="checkout">Checkout</div>
+<a href="#"><button class="view-cart">View Cart</button></a>
+</div>
+</div>
+</header>
+
+<main>
+<br>
+<br>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-12 text-center">
+<button type="button" class="btn3 btn-primary"><b>Biscuits</b> <span class="badge"><i>350 results</i></span></button>
+</div>
+</div>
+</div>
+
+<section class="shop-section">
+<div class="card-wrapper">
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="1" class="card-item">
+<img src="Biscuits/dinosaurus.jpg" class="img-responsive" style="width:100%" alt="Image">
+<div class="panel-footer" style="margin: -65px -14.7px; width: 355px; z-index: 0;">
+<h5 style="margin: 2px 0px">DINOSAURUS milk chocolate biscuits 225g</h5>
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">1.90</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup0()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="2" class="card-item">
+<img src="Biscuits/stmichel.jpg" class="img-responsive" style="width:100%" alt="Image">
+<div class="panel-footer" style="margin: -65px -15px; z-index: 0;"> 
+<h5 style="margin: 2px 0px">ST MICHEL organic butter biscuits 130g</h5>  
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">1.10</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="3" class="card-item">
+<img src="Biscuits/petitecolier.jpg" class="img-responsive" style="width:100%" alt="Image">
+<div class="panel-footer" style="margin: -65px -15px; z-index: 0;"> 
+<h5 style="margin: 2px 0px">PETIT ECOLIER Butter & Chocolate biscuits 150g</h5>  
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">1.20</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup2()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="4" class="card-item">
+<img src="Biscuits/petitscoeurs.jpg" class="img-responsive"
+style="width:266px; height: 266px; margin: -15px 30px;" alt="Image">
+<div class="panel-footer" style="margin: 24px -15px; z-index: 0;">
+<h5 style="margin: 2px 0px">Petits Coeurs Chocolate Biscuits 125g</h5>   
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">1.00</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup3()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid" >
+<div class="row">
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="5" class="card-item">
+<img src="Biscuits/bnchocolate.jpg" class="img-responsive" style="width:100%" alt="Image">
+<div class="panel-footer" style="margin: -65px -15px; z-index: 0;"> 
+<h5 style="margin: 2px 0px">BN Mini Chocolate Flavour Biscuits 175g</h5>    
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">1.60</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup4()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="6" class="card-item">
+<img src="Biscuits/lubarquette.jpg" class="img-responsive" style="width:100%" alt="Image">
+<div class="panel-footer" style="margin: -65px -15px; z-index: 0;"> 
+<h5 style="margin: 2px 0px">Strawberry biscuits LULU DE LU 120g</h5> 
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">0.85</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup5()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="7" class="card-item">
+<img src="Biscuits/madeleines.jpg" class="img-responsive" style="width:280 px; height:280px; margin:-15px 015px;" alt="Image">
+<div class="panel-footer" style="margin: 10px -15px; z-index: 0;"> 
+<h5 style="margin: 2px 0px">ST MICHEL chocolate chip madeleines 400g</h5> 
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">2.45</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup6()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="8" class="card-item">
+<img src="Biscuits/mikado.jpg" class="img-responsive"
+style="width:266px; height: 266px; margin: -11px 30px;" alt="Image">
+<div class="panel-footer" style="margin: 16px -15px; z-index: 0;">
+<h5 style="margin: 2px 0px">MIKADO dark chocolate Biscuits 90g</h5> 
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">1.25</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup7()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="container-fluid" >
+<div class="row">
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="9" class="card-item">
+<img src="Biscuits/palmito.jpg" class="img-responsive" style="width:100%" alt="Image">
+<div class="panel-footer" style="margin: -65px -15px; z-index: 0;"> 
+<h5 style="margin: 2px 0px">PALMITO Caramelized Puff Pastry Biscuits 100g</h5> 
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">0.80</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup8()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="10" class="card-item">
+<img src="Biscuits/pims.jpg" class="img-responsive" style="width:100%" alt="Image">
+<div class="panel-footer" style="margin: -65px -15px; z-index: 0;"> 
+<h5 style="margin: 2px 0px">PIM’S raspberry biscuits 150g</h5> 
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">1.05</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup9()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="11" class="card-item">
+<img src="Biscuits/petitbeurre.jpg" class="img-responsive" style="width:280 px; height:280px; margin:-15px 015px;" alt="Image">
+<div class="panel-footer" style="margin: 10px -15px; z-index: 0;"> 
+<h5 style="margin: 2px 0px">Real little butter biscuits LU 400g</h5> 
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">1.70</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup10()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+<div class="col-sm-3 text-center">
+<div class="panel panel-primary">
+<div class="panel-body">
+<div data-id="12" class="card-item">
+<img src="Biscuits/savane.jpg" class="img-responsive"
+style="width:406px; height: 316px; margin: -15px 5px;" alt="Image">
+<div class="panel-footer" style="margin: -41px -15px; z-index: 0;">
+<h5 style="margin: 2px 0px">The Classic chocolate cake SAVANE 310g</h5> 
+<p><span style="float:left; font-size: 12px;">Each biscuit (7.1g) contains:</span> 
+<span style="float:right;font-size: 25px; margin: 10px -2px" class="price">2.10</span>
+<img src="Icons/info.png" class="img-responsive" style="width: 205px;height:57px;margin: 40px -5px;" alt="Image">
+<button onclick="togglePopup11()" style="margin: -66px 0px; float:right; ">Read more</button>
+<button type="button" class="add-to-cart-btn">Add to cart</button></p>
+<h3 style="float:right; margin: -157px 47px">€</h3>
+</div>
+</div>
+</div>
+<img src="Icons/heart.png" class="img-responsive" style="width:44px; height:44px; margin: -482px 297px;" alt="Image">
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section> 
+
+
+<!--Pagination list-->
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-12 text-center">
+<ul class="pagination">
+<li class="active" ><a href="#" style="background-color:#43D079;">1</a></li>
+<li><a href="#">2</a></li>
+<li><a href="#">3</a></li>
+<li><a href="#">4</a></li>
+<li><a href="#">5</a></li>
+<li><a href="#">6</a></li>
+<li><a href="#">7</a></li>
+<img src="Icons/arrow.png" class="img-responsive" style="width:25px;height: 25px;margin:5px 160px;" alt="Image">
+</ul>
+</div>
+</div>
+</div>
+
+<!--Pop up windows-->
+
+<div class="popup" id="popup-0">
+<div class="overlay">
+<div class="content" style="height:755px">
+<pre><b style="font-size:16px">Description</b>
+    
+The inimitable Dinosaurus Biscuit… A delicious 
+crunchy biscuit topped with a tasty milk 
+chocolate. In the shape of dinosaurs, it is 
+particularly popular with children but is 
+often eaten by the whole family.
+
+Ingredients / Composition
+    
+Ingredients
+Wheat flour 49%, MILK chocolate 22% (sugar, 
+cocoa butter, cocoa mass, whole MILK powder 
+13%, whey powder (MILK) , butter fat (MILK), 
+emulsifiers (lecithins (SOYA), E476), natural 
+vanilla flavouring),sugar, vegetable oils 
+(palm*, rapeseed, sunflower), EGGS from 
+free-range hens, salt, baking powder, 
+baking powder (sodium hydrogen carbonate), 
+natural flavouring, vegetable proteins(peas), 
+dextrose, corn starch, maltodextrin.
+*Palm oil from sustainable and 
+certified plantations.
+
+Allergens
+Soy - Gluten - Egg - Lactose
+    
+Each biscuit (7.1g) contains
+    
+    
+    
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+    
+    
+Of an adult’s reference intake
+    
+Energy per 100g: 2051 kJ, 489 kcal
+    
+</pre>
+<div class="close-btn" onclick="togglePopup0()">&times;</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="popup" id="popup-1">
+<div class="overlay">
+<div class="content" style="height: 720px;">
+<pre><b style="font-size:16px">Description</b>
+
+Find the famous taste of the St Michel 
+galette with organic ingredients! Crispy 
+and melting pancakes with good organic 
+butter. Organic St Michel, an organic that 
+has taste and meaning: made in France, with 
+French wheat flour, French eggs and without 
+palm oil. St Michel, French biscuits of 
+gourmet origin!
+
+Ingredients / Composition
+
+Ingredients
+Ingredients: WHEAT flour* 66%, cane sugar*, 
+BUTTER* 16%, EGGS* 2.5%, baking powders: 
+ammonium and sodium carbonates - citric acid, 
+natural flavor, gray sea salt, skimmed MILK 
+powder *. Ingredients from organic farming\
+Possible traces of SOYA, SESAME seeds and NUTS.
+
+Allergens
+Soy - Sesame - Gluten - Egg 
+- Lactose - Nuts
+
+Each biscuit (7.1g) contains
+
+
+
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+
+
+Of an adult’s reference intake
+
+Energy per 100g: 2051 kJ, 489 kcal
+
+</pre>
+<div class="close-btn" onclick="togglePopup()">&times;</div>
+</div>
+</div>
+</div>
+
+
+<div class="popup" id="popup-2">
+<div class="overlay">
+<div class="content"style="height:665px;">
+<pre><b style="font-size:16px">Description</b>
+    
+Petit Ecolier milk chocolate from LU: a cult 
+biscuit for all gourmets! 1 package contains 
+approximately 12 cookies.
+    
+Ingredients / Composition
+
+Ingredients
+Ingredients: Small BUTTER 52%: WHEAT flour 68%, 
+sugar, pastry BUTTER 14%, skimmed MILK powder, 
+baking powders (ammonium carbonates, sodium 
+carbonates, diphosphates), salt, 
+acidity corrector (citric acid ). 
+48% MILK chocolate: Sugar, cocoa butter, 
+cocoa mass, skimmed MILK powder, whey powder 
+(from MILK), pastry BUTTER, emulsifier 
+(SOYA lecithins, E476), aroma. MAY CONTAIN NUTS.
+    
+Allergens
+Soy - Gluten - Lactose - Nuts
+    
+Each biscuit (7.1g) contains
+    
+    
+    
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+    
+    
+Of an adult’s reference intake
+    
+Energy per 100g: 2051 kJ, 489 kcal
+    
+</pre>
+<div class="close-btn" onclick="togglePopup2()">&times;</div>
+</div>
+</div>
+</div>
+
+<div class="popup" id="popup-3">
+<div class="overlay">
+<div class="content"style="height:610px;">
+<pre><b style="font-size:16px">Description</b>
+        
+Petits Cœurs Chocolat by LU, puff pastry biscuits 
+with a tasty chocolate centre.
+
+Ingredients / Composition
+    
+Ingredients
+Ingredients: WHEAT flour, vegetable oils 
+(palm, copra), sugar, chocolate powder 7.9% 
+(sugar, cocoa powder), lactose (from MILK), 
+raising agent (ammonium acid carbonate, 
+acid carbonate of sodium), whole MILK powder, 
+cocoa mass, salt, HAZELNUT paste, emulsifier 
+(SOYA lecithin) MAY CONTAIN EGG, OTHER NUTS.
+    
+Allergens
+Soy - Gluten - Egg - Lactose - Nuts
+        
+Each biscuit (7.1g) contains
+        
+        
+        
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+        
+        
+Of an adult’s reference intake
+        
+Energy per 100g: 2051 kJ, 489 kcal
+        
+</pre>
+<div class="close-btn" onclick="togglePopup3()">&times;</div>
+</div>
+</div>
+</div>
+
+
+<div class="popup" id="popup-4">
+<div class="overlay">
+<div class="content"style="height:648px;">
+<pre><b style="font-size:16px">Description</b>
+            
+Rich in cereals 100% French wheat no artificial 
+colors no added preservatives no hydrogenated 
+fats.
+
+Ingredients / Composition
+Ingredients
+Ingredients: CEREALS (46.2%) (WHEAT (46%) 
+and RYE flours) - sugar - vegetable fats 
+(palm, palm kernel, rapeseed) - 
+lean cocoa powder (4.1%) - powdered WHEY 
+permeate (MILK) - BLE starch - salt - 
+baking powders: sodium and ammonium 
+carbonates - emulsifiers: e472c, 
+e472e - aroma. may contain traces 
+of NUTS
+    
+Allergens
+Gluten - Lactose - Nuts
+            
+Each biscuit (7.1g) contains
+            
+            
+            
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+            
+            
+Of an adult’s reference intake
+            
+Energy per 100g: 2051 kJ, 489 kcal
+            
+</pre>
+<div class="close-btn" onclick="togglePopup4()">&times;</div>
+</div>
+</div>
+</div>
+
+
+<div class="popup" id="popup-5">
+<div class="overlay">
+<div class="content"style="height:588px;">
+<pre><b style="font-size:16px">Description</b>
+                
+Lulu La Barquette strawberry, a tender and 
+delicious cake Package of 3 fresh sachets 
+of 6 biscuits.
+
+Ingredients / Composition
+Ingredients
+Glucose-fructose syrup, strawberry puree 
+27.8%**, sugar, WHEAT flour 19.3%, 
+EGGS 16.8%, WHEAT starch, gelling agent 
+(pectins), acidity regulator (citric acid), 
+aromas, dry yeast. ** Or 49.8% strawberries 
+in the topping. MAY CONTAIN MILK, NUTS.
+    
+Allergens
+Gluten - Egg - Lactose - Nuts
+                
+Each biscuit (7.1g) contains
+                
+                
+                
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+                
+                
+Of an adult’s reference intake
+                
+Energy per 100g: 2051 kJ, 489 kcal
+                
+</pre>
+<div class="close-btn" onclick="togglePopup5()">&times;</div>
+</div>
+</div>
+</div>
+
+<div class="popup" id="popup-6">
+<div class="overlay">
+<div class="content"style="height:778px;">
+<pre><b style="font-size:16px">Description</b>
+                    
+Find our little soft madeleines with melting 
+chocolate chips, ideal for gourmet breakfasts. 
+A simple and authentic recipe with good 
+ingredients: eggs from free-range hens, French 
+wheat flour from the CRC® sector, without palm 
+oil.
+Our madeleines are made in our family biscuit 
+factory in Contres, in the center of France.
+St Michel, French biscuits of gourmet origin!
+    
+Ingredients / Composition
+Ingredients
+Ingredients: WHEAT flour (27%), sugar, 
+non-hydrogenated rapeseed oil, EGGS from 
+free-range hens (16%), glucose-fructose syrup, 
+stabilizer: glycerol, cocoa paste, fresh 
+pasteurized semi-skimmed MILK (2.3%), starch, 
+baking powders: sodium diphosphates and 
+carbonates (BLE), whole MILK powder, cocoa 
+butter, salt, flavourings, lean cocoa powder, 
+LACTOSE, emulsifier: SOYA lecithins. 
+Contains SOY. Possible traces of NUTS.
+    
+Allergens
+Soy - Gluten - Egg - Lactose - Nuts
+                    
+Each biscuit (7.1g) contains
+                    
+                    
+                    
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+                    
+                    
+Of an adult’s reference intake
+                    
+Energy per 100g: 2051 kJ, 489 kcal
+                    
+</pre>
+<div class="close-btn" onclick="togglePopup6()">&times;</div>
+</div>
+</div>
+</div>
+
+<div class="popup" id="popup-7">
+<div class="overlay">
+<div class="content"style="height:558px;">
+<pre><b style="font-size:16px">Description</b>
+                        
+Dark chocolate Mikado, a thin and crunchy biscuit 
+coated in a delicious dark chocolate coating.
+
+Ingredients / Composition
+Ingredients
+WHEAT flour, sugar, cocoa mass, vegetable fats 
+(palm, coconut), cocoa butter, whey powder 
+(from MILK), concentrated BUTTER, salt, 
+emulsifiers (SOYA lecithin, E476), baking 
+powder ( E503), yeast, aroma. MAY CONTAIN NUTS.
+    
+Allergens
+Soy - Gluten - Lactose - Nuts
+                        
+Each biscuit (7.1g) contains
+                        
+                        
+                        
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+                        
+                        
+Of an adult’s reference intake
+                        
+Energy per 100g: 2051 kJ, 489 kcal
+                        
+</pre>
+<div class="close-btn" onclick="togglePopup7()">&times;</div>
+</div>
+</div>
+</div>
+
+<div class="popup" id="popup-8">
+<div class="overlay">
+<div class="content"style="height:558px;">
+<pre><b style="font-size:16px">Description</b>
+                            
+What characterizes the Palmito biscuit from LU®? 
+Its puff!
+
+Ingredients / Composition
+Ingredients
+Ingredients: WHEAT flour 58.9%, vegetable oil 
+margarine (palm, rapeseed), water, salt, 
+emulsifier (E471), acidifier (citric acid), 
+preservative\n(potassium sorbate), aroma, 
+coloring (beta-carotene ), sugar, salt, 
+flavouring, baking powder (sodium carbonates). 
+MAY CONTAIN EGG, MILK, NUTS.
+    
+Allergens
+Gluten - Egg - Lactose - Nuts
+                            
+                            
+                            
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+                            
+                            
+Of an adult’s reference intake
+                            
+Energy per 100g: 2051 kJ, 489 kcal
+                            
+</pre>
+<div class="close-btn" onclick="togglePopup8()">&times;</div>
+</div>
+</div>
+</div>
+
+
+<div class="popup" id="popup-9">
+<div class="overlay">
+<div class="content"style="height:800px;">
+<pre><b style="font-size:16px">Description</b>
+                                
+Pim’s the Original, a tender sponge cake 
+covered with a raspberry marmalade and a 
+fine chocolate shell.
+
+Ingredients / Composition
+Ingredients
+Raspberry preparation 41% glucose fructose 
+syrup, sugar, concentrated raspberry pulp 1.5% 
+(equivalent raspberry pulp 4.9%), raspberry 
+puree 1.2%, concentrated raspberry puree 1.1% 
+(equivalent raspberry puree 4.9%), concentrated 
+redcurrant juice, acidifier (citric acid), 
+gelling agent (pectins), acidity correctors 
+(trisodium citrate, calcium citrates), 
+flavouring,thickener (xanthan gum), 
+chocolate 24% sugar , cocoa paste, 
+cocoa butter, vegetable fats 
+(mango kernels, salt, shea, palm in varying 
+proportions), emulsifier (SOYA lecithins), 
+lactose (MILK) and MILK proteins, flavouring, 
+WHEAT flour 15%, sugar, EGGS, glucose-fructose 
+syrup, rapeseed oil, baking powder (ammonium 
+carbonates, disodium diphosphate, sodium 
+carbonates), WHEAT starch, salt, emulsifier 
+(SOYA lecithins). MAY CONTAIN SESAME.
+    
+Allergens
+Soy - Sesame - Gluten - Egg - Lactose
+                                
+                                
+                                
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+                                
+                                
+Of an adult’s reference intake
+                                
+Energy per 100g: 2051 kJ, 489 kcal
+                                
+</pre>
+<div class="close-btn" onclick="togglePopup9()">&times;</div>
+</div>
+</div>
+</div>
+
+<div class="popup" id="popup-10">
+<div class="overlay">
+<div class="content"style="height:558px;">
+<pre><b style="font-size:16px">Description</b>
+                                    
+LU’s Genuine Petit Beurre, a tasty pure butter 
+recipe with 73% quality wheat grown according to 
+the LU’Harmony charter. One package contains 
+48 biscuits.
+
+Ingredients / Composition
+Ingredients
+WHEAT flour 73%, sugar, BUTTER 13%, skimmed 
+MILK powder, salt, baking powders (ammonium 
+carbonates, sodium carbonates), acidity 
+regulator (citric acid), flavouring. May 
+contain EGGS and SESAME.
+        
+Allergens
+Soy - Sesame - Gluten - Egg - Lactose
+                                    
+                                    
+                                    
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+                                    
+                                    
+Of an adult’s reference intake
+                                    
+Energy per 100g: 2051 kJ, 489 kcal
+                                    
+</pre>
+<div class="close-btn" onclick="togglePopup10()">&times;</div>
+</div>
+</div>
+</div>
+
+<div class="popup" id="popup-11">
+<div class="overlay">
+<div class="content"style="height:720px;">
+<pre><b style="font-size:16px">Description</b>
+                                        
+The unique and inimitable taste of Savane 
+Brossard Familial chocolate, for gourmet 
+and chocolatey moments of sharing, with 
+family or friends! In addition, our Family 
+Savanes are Made in France, without palm 
+oil and Nustri-score C!
+
+Ingredients / Composition
+Ingredients
+WHEAT flour 26.1%, fresh EGGS, sugar, 
+rapeseed oil, chocolate 5.8% (sugar, 
+cocoa paste, cocoa butter, emulsifier: 
+lecithins, natural vanilla flavor), 
+chicory root fiber, stabilizer : glycerol, 
+EGG yolk, acacia gum (soluble fiber), baking 
+powders: sodium carbonates - sodium 
+citrates, cocoa powder, salt, BLE fibers, 
+corn starch, aroma.\n
+    
+Allergens
+Gluten - egg
+            
+Allergens
+Soy - Sesame - Gluten - Egg - Lactose
+                                        
+                                        
+                                        
+<img src="Icons/info.png" class="img-responsive" 
+style="width: 205px;height:57px;margin:-35px 90px;" alt="Image">
+                                        
+                                        
+Of an adult’s reference intake
+                                        
+Energy per 100g: 2051 kJ, 489 kcal
+                                        
+</pre>
+<div class="close-btn" onclick="togglePopup11()">&times;</div>
+</div>
+</div>
+</div>
+
+<div class="select">
+		
+</div>
+
+<!--back to top button-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+
+<!--script for the back to top button-->
+
+<script> 
+var mybutton = document.getElementById("myBtn");
+    
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+    
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+<!--Scripts for each pop up window-->
+
+<script>
+function togglePopup0(){
+document.getElementById("popup-0").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup(){
+document.getElementById("popup-1").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup2(){
+document.getElementById("popup-2").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup3(){
+document.getElementById("popup-3").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup4(){
+document.getElementById("popup-4").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup5(){
+document.getElementById("popup-5").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup6(){
+document.getElementById("popup-6").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup7(){
+document.getElementById("popup-7").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup8(){
+document.getElementById("popup-8").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup9(){
+document.getElementById("popup-9").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup10(){
+document.getElementById("popup-10").classList.toggle("active");
+}
+</script>
+
+<script>
+function togglePopup11(){
+document.getElementById("popup-11").classList.toggle("active");
+}
+</script>
+
+
+</main>
+
+
+<footer>
+<div class="container-fluid" style="background-color:#FAAD1D; height: 190px; ">
+<div class="row">
+<div class="col-sm-4 footer-content">
+<p style="color:#000000; font-size: 16px;text-align: left;margin: 15px "> <br> <strong>About Irish Food</strong></p>
+<br>
+<ul style="color:#000000; font-size: 14px;text-align: left; margin: 7px "> 
+<li><a href="#">Careers</a></li>
+<li><a href="#">Media information</a></li> 
+<li><a href="#">Contact us</a></li>
+</ul>
+</div>
+<div class="col-sm-4 footer-content3">
+<p style="color:#000000; font-size: 16px; text-align: left;margin: 15px "> <br><strong>More about our website</strong></p>
+<br>
+<ul style="color:#000000; font-size: 14px;text-align:left; margin: 7px "> 
+<li><a href="#">Help</a></li> 
+<li><a href="#">Privacy & Cookie policy</a></li> 
+<li><a href="#">Terms & Conditions</a></li> 
+</ul>
+</div>
+<div class="col-sm-4 footer-content2">
+<ul class="socials" style="margin: 60px -1px;">
+<p style="color:#000000; font-size: 14px; margin:10px;  "> Follow us </p>
+<li><a href="https://wwww.facebook.com"><img class="img-responsive" img src="Footer icons/Facebook_footer.png" 
+style="  width: 48px; height: 48px;"></a></li>
+<li><a href="https://www.twitter.com"><img class="img-responsive" img src="Footer icons/Twitter.png" 
+style="  width: 50px; height: 50px;"></a></li>
+<li><a href="https://www.instagram.com"><img class="img-responsive" img src="Footer icons/Instagram.png" 
+style=" width: 50px; height: 50px;"></a></li>
+<li><a href="https://www.youtube.com"><img class="img-responsive" img src="Footer icons/Youtube.png" 
+style="  width: 50px; height: 50px; "></a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
